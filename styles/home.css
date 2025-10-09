@@ -1,0 +1,55 @@
+.offer_img_down {
+
+    width: 40%;
+
+    height: auto;
+
+    float: left;
+
+    position: relative;
+
+}
+.image_other {
+
+width:100%;
+
+}
+
+
+.offer_div_text {
+
+    float: left;
+
+    padding-left: 22px;
+
+    width: 56%;
+
+}
+
+.offer_black_text_btm {
+
+    font-size: 16px;
+
+    color: #2D2D2D;
+
+    padding: 6px 0px;
+
+}
+
+.head_content {
+
+
+
+    padding-top: 7px;
+
+
+
+    width: 98%;
+
+
+
+    margin: 0px auto;
+
+
+
+}

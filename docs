@@ -1,0 +1,75 @@
+# Tutor Booking App (Next.js + Tailwind)
+
+## 📝 Project Overview
+This is a tutorial booking app built using Next.js and Tailwind CSS. It includes:
+
+- Responsive landing page
+- Header with mega menu
+- Booking system with form
+- Payment integration (Planned)
+- Tailwind CSS for styling
+
+## 📁 Folder Structure
+/components → Reusable UI components (Header, Footer, etc.)
+/pages → index, tutorials, 
+/public → Static assets like images
+/styles → Global CSS (Tailwind setup)
+/README.md → This file
+
+
+## 🚀 Setup Instructions
+```bash
+git clone https://github.com/yourusername/tutorial-booking.git
+cd tutorial-booking
+npm install
+npm run dev
+
+ 📦 Tech Stack
+Next.js (React framework)
+
+Tailwind CSS
+
+Stripe (Coming soon)
+
+Node.js APIs
+
+📌 Todos
+ Create responsive header & footer
+
+ Add booking calendar
+
+ Payment integration with Stripe
+
+ Admin dashboard
+
+ bookmarking site: https://www.tutorhub.ie/index.php
+
+ 📄 License
+
+---
+
+## ✅ Option 2: Internal Documentation Route (e.g. `/docs`)
+
+If you want to **view documentation in the browser**, create a page like:
+
+### 📁 `pages/docs.js`
+```jsx
+export default function Docs() {
+  return (
+    <div className="max-w-4xl mx-auto p-8">
+      <h1 className="text-3xl font-bold mb-4">Project Documentation</h1>
+      <p className="mb-2">Welcome to the tutorial booking app documentation.</p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">Getting Started</h2>
+      <p>Run <code>npm run dev</code> to start the local server.</p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">Folder Structure</h2>
+      <ul className="list-disc list-inside">
+        <li><code>/pages</code>: Application routes</li>
+        <li><code>/components</code>: Reusable UI</li>
+        <li><code>/styles</code>: Tailwind setup</li>
+      </ul>
+    </div>
+  );
+}
+

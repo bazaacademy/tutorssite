@@ -1,0 +1,35 @@
+
+
+:root {
+  --bs-primary: #EAB308; /* gold yellow */
+  --bs-dark: #000000;
+  --bs-gray: #6B7280;
+}
+.cardbg{
+  background-color: lightcyan;
+}
+body {
+  background: white;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-gold {
+  background-color: #EAB308;
+  border-color: #EAB308;
+  color: #000;
+}
+
+.btn-gold:hover {
+  background-color: #d1a306;
+  border-color: #d1a306;
+}
+
+/* styles/Dashboard.module.css */
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
