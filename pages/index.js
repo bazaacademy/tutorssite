@@ -7,6 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import TutorialCategoriesSlider from "@/components/TutorialCategoriesSlider";
 import FeaturedTutors from "@/components/Featuredtutors";
 import ReviewsSection from "@/components/ReviewsSection";
+import HomeCta from "@/components/HomeCta";
 
 export default function Home() {
   const [userCountry, setUserCountry] = useState("US");
@@ -54,6 +55,7 @@ export default function Home() {
         </p>
 
         {/* Find Tutors and Become Tutor sections ... */}
+        <HomeCta />
 
       </main>
 
