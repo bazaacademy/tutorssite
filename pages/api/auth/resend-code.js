@@ -31,7 +31,7 @@ export default async function handler(req, res) {
 
   const transporter = await createMailTransporter();
   await transporter.sendMail({
-    from: `"${process.env.COMPANY_NAME}" <${process.env.GMAIL_ACCOUNT}>`,
+    from: `"${process.env.COMPANY_NAME}" <${process.env.OUTLOOK_ACCOUNT}>`, //replaced gmail_account with outlook account
     to: email,
     subject: "New Verification Code",
     html: `

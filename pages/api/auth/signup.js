@@ -48,7 +48,7 @@ export default async function handler(req, res) {
 
 
     await transporter.sendMail({
-      from: `"${process.env.COMPANY_NAME}" <${process.env.GMAIL_ACCOUNT}>`,
+      from: `"${process.env.COMPANY_NAME}" <${process.env.OUTLOOK_ACCOUNT}>`,//replaced gmail_account with outlook
       to: email,
       subject: "Email Verification",
       html: `

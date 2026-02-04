@@ -27,7 +27,7 @@ export default async function handler(req, res) {
     
     const transporter = await createMailTransporter();
     await transporter.sendMail({
-      from: `"${process.env.COMPANY_NAME}" <${process.env.GMAIL_ACCOUNT}>`,
+      from: `"${process.env.COMPANY_NAME}" <${process.env.OUTLOOK_ACCOUNT}>`,//replaced gmail_account with OUTLOOK_ACCOUNT
       to: email,
       subject: "Reset your password",
       html: `<p>Click <a href="${resetUrl}">here</a> to reset your password. This link expires in 30 minutes.</p>`,

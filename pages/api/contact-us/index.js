@@ -20,8 +20,8 @@ export default async function handler(req, res) {
     const transporter = await createMailTransporter();
 
     await transporter.sendMail({
-      from: `${process.env.COMPANY_NAME}" <${process.env.GMAIL_ACCOUNT}>`,
-      to: `${process.env.COMPANY_NAME}" <${process.env.GMAIL_ACCOUNT}>`,
+      from: `${process.env.COMPANY_NAME}" <${process.env.OUTLOOK_ACCOUNT}>`, //replacing gmail_account with OUTLOOK_ACCOUNT
+      to: `${process.env.COMPANY_NAME}" <${process.env.OUTLOOK_ACCOUNT}>`,
  // your receiving email
       subject: `Contact Form Message from ${name}`,
       text: message,
